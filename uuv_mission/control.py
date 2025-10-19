@@ -1,5 +1,5 @@
 class Controller:
-    def __init__(self, KP: float = 0.15, KD : float = 0.6, KI: float = 0.02, dt: float = 1.0):
+    def __init__(self, KP: float = 0.15, KD : float = 0.7, KI: float = 0.01, dt: float = 1.0):
         self.KP = KP
         self.KD = KD
         self.KI = KI
